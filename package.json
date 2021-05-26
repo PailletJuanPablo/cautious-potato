@@ -1,0 +1,23 @@
+{
+  "name": "claserepaso",
+  "version": "1.0.0",
+  "description": "## Git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PailletJuanPablo/cautious-potato.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PailletJuanPablo/cautious-potato/issues"
+  },
+  "homepage": "https://github.com/PailletJuanPablo/cautious-potato#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
