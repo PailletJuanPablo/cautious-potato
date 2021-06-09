@@ -12,8 +12,8 @@ const devolverVista = (res, ruta) => {
     res.sendFile(path.resolve(__dirname, ruta));
 }
 
-app.get('/', (req, res) => devolverVista( res, 'views/index.html'));
-app.get('/contacto', (req, res) => devolverVista( res, 'views/contacto.html'));
-app.get('/nosotros', (req, res) => devolverVista( res, 'views/nosotros.html'));
+app.get('/home', (req, res) => devolverVista( res, 'views/index.html'));
+app.get('/contacts', (req, res) => devolverVista( res, 'views/contacto.html'));
+app.get('/about-us', (req, res) => devolverVista( res, 'views/nosotros.html'));
 
 app.use((req, res) => devolverVista( res, 'views/404.html'));
