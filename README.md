@@ -36,3 +36,21 @@ Repositorio remoto
 
 Aca agrego algo
 Agrego codigo
+
+
+## Cambiar texto de un commit 
+- git commit --amend
+
+
+## Ramas
+
+### Creo una nueva rama
+- git checkout -b nombreRama
+- Antes de crearla, añadir y commitear.
+
+- git add .
+- git commit -m "Mensaje"
+- 
+
+
+
